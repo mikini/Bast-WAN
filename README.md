@@ -1,6 +1,6 @@
 # Bast-WAN
 
-Bast WAN is all the best in the world format Feather and LoRa with a SAML21 M0+ core, 32 bits of power!, Feather pin to pin compatible with a micro USB port.
+Bast-WAN is all the best in the world format Feather and LoRa with a SAML21 M0+ core, 32 bits of power!, Feather pin to pin compatible with a micro USB port.
 
 Bast-WAN is supported in the Arduino development environment and Circuit Python coming soon
 
@@ -39,7 +39,7 @@ Here's some handy specs!
 - Maximum Transmit Power up to 20 dBm
 - Low RX current of 17mA (typical)  LoRa Technology, (G)FSK, (G)MSK
 
-The Bast WAN  uses the extra space left over to add a Cryptographic chip ATECC608A-TNGLORA and 2 MB SPI Flash storage. You can use the SPI Flash storage like a very tiny hard drive. When used in CircuitPython, the 2 MB flash acts as storage for all your scripts, libraries and files. When used in Arduino, you can read/write files to it, like a little datalogger or SD card, and then with our helper program, access the files over USB.
+The Bast-WAN  uses the extra space left over to add a Cryptographic chip ATECC608A-TNGLORA and 2 MB SPI Flash storage. You can use the SPI Flash storage like a very tiny hard drive. When used in CircuitPython, the 2 MB flash acts as storage for all your scripts, libraries and files. When used in Arduino, you can read/write files to it, like a little datalogger or SD card, and then with our helper program, access the files over USB.
 
 Easy reprogramming: the Bast-WAN comes pre-loaded with the UF2 bootloader, which looks like a USB storage key. Simply drag firmware on to program, no special tools or drivers needed! It can be used to load up CircuitPython, PXT MakeCode or Arduino IDE (it is bossa-compatible)
 
